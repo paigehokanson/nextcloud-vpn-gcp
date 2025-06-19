@@ -1,0 +1,23 @@
+# Google Cloud Platform Project ID
+# This is your unique project identifier in GCP
+gcp_project_id = "your-gcp-project-id"
+
+# Home/Office IP address for SSH access
+# Format: xxx.xxx.xxx.xxx/32 (CIDR notation)
+# This restricts SSH access to only your IP address for security
+ssh_source_ip = "your.home.ip.address/32"
+
+# GCP Region and Zone
+# The geographical location for your infrastructure
+region = "us-central1"
+zone = "us-central1-a"
+
+# Optional: VM Instance Settings
+# Uncomment and modify if you want to change the default machine types
+# pritunl_machine_type = "e2-micro"  # Default: Free tier eligible
+# nextcloud_machine_type = "e2-medium"  # Default: Good balance for Nextcloud
+
+# Optional: Network Settings
+# Uncomment and modify if you need to change default network CIDR blocks
+# vpc_cidr = "10.0.0.0/20"
+# subnet_cidr = "10.0.0.0/24" 
